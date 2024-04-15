@@ -1,0 +1,42 @@
+hr {
+    border: 1px solid rgba(240, 239, 239, 0.375);
+    width: 520px;
+  }
+  .current-weather {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  h1 {
+    color: #272142;
+    font-size: 38px;
+    font-weight: 900;
+  }
+  p {
+    color: #27214266;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  p strong {
+    color: #f65282;
+  }
+  .city-temperature {
+    display: block;
+    margin: 25px 0 auto;
+    color: #272142;
+  }
+  .weather-emoji {
+    position: relative;
+    top: -10px;
+    font-size: 30px;
+  }
+  .temperature-value {
+    font-size: 80px;
+    font-weight: 900;
+  }
+  .celsius {
+    position: relative;
+    top: -40px;
+    font-size: 20px;
+    font-weight: 600;
+  }
